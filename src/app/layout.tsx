@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 // 전역 CSS
 import "@/styles/globals.css";
-import SideNavigation from "@/components/ui/common/navigation/SideNavigation";
+import SideNavigation from "@/components/common/navigation/SideNavigation";
 
 const roboto = Roboto({ subsets: ["latin"],weight:["400","500","700"] });
 
